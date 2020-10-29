@@ -14,7 +14,6 @@ function Login() {
 
       <div className="login__container">
         <h1>Sign-in</h1>
-
         <form>
           <h5>E-mail</h5>
           <input type="text" />
@@ -25,13 +24,13 @@ function Login() {
           <button type="submit" className="login__signInButton">
             Sign In
           </button>
-        </form>
-
-        <p>
-          By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please see our Privacy Notice, our
-          Cookies Notice and our Interest-Based Ads Notice.
+        </form>{' '}
+        <p className="p">
+          <center>
+            By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please see our Privacy Notice,
+            our Cookies Notice and our Interest-Based Ads Notice.
+          </center>
         </p>
-
         <button className="login__registerButton">Create your Amazon Account</button>
       </div>
     </div>
